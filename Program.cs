@@ -31,6 +31,7 @@ namespace StoreInventoryRecorder
             Console.WriteLine();
             Console.WriteLine("Press any key to exit...");
             Console.ReadKey();
+            Console.WriteLine("Testing the Github Connection");
         }
 
         static int ReadInteger(string prompt)
