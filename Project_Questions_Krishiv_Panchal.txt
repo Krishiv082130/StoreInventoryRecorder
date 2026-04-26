@@ -1,0 +1,39 @@
+Questions About Your CISS 222 Personal Programming Project
+
+Your Name: Krishiv Panchal
+
+Program Name: Store Inventory Recorder
+
+Today's Date: 04/25/26
+
+======================================================================
+1. Why did you write this program?  What does it do for you and/or others?
+======================================================================
+I created this program to simulate a simple inventory checking system that a small store manager could use. 
+In many small stores, inventory is often checked manually, which can lead to mistakes or delays in restocking products. 
+This program helps automate that decision-making process by allowing the user to enter product details and instantly determine whether the item needs to be reordered. 
+It calculates how many units should be ordered to reach a safe stock level, which makes it useful as a basic tool for managing inventory and preventing shortages.
+
+======================================================================
+2. What things surprised you while writing your program?
+======================================================================
+One thing that surprised me was how much thought is needed even for a simple program. 
+I initially thought it would just be taking input and doing a calculation, but I realized that handling invalid input, making the program user-friendly, and organizing the code properly takes more effort than expected. 
+Another thing that surprised me was how helpful breaking the program into classes and methods was. 
+Using separate classes like InventoryItem and InventoryChecker made the program easier to manage and understand.
+
+======================================================================
+3. What enhancements and/or improvements do you foresee for your program?
+======================================================================
+In the future, I would like to expand this program into a full application with a graphical user interface using Windows Forms or WPF. 
+I would also like to add features such as saving inventory data to a file or database, loading previous records, and handling multiple products more efficiently. 
+Another improvement would be adding categories and more detailed reports so the user can see trends in inventory usage over time.
+
+======================================================================
+4. What did you learn from writing your program (technical and/or non-technical)?
+======================================================================
+From a technical perspective, I learned how to apply object-oriented programming concepts such as classes, methods, and inheritance in a real project. 
+I also improved my understanding of input validation and program flow control. 
+From a non-technical perspective, I learned that planning the program structure early makes development much easier. 
+I also realized that even simple programs require careful attention to detail to ensure they work correctly and are easy for users to understand.
+
