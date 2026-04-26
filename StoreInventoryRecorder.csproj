@@ -46,6 +46,7 @@
     <Compile Include="InventoryChecker.cs" />
     <Compile Include="InventoryItem.cs" />
     <Compile Include="InventoryResult.cs" />
+    <Compile Include="ProductBase.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

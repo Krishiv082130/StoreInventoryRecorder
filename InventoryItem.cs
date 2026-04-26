@@ -6,15 +6,14 @@ using System.Threading.Tasks;
 
 namespace StoreInventoryRecorder
 {
-    internal class InventoryItem
+    public class InventoryItem : ProductBase
     {
-        public string ProductName { get; set; }
         public int CurrentStock { get; set; }
         public int MinimumRequired { get; set; }
 
         public InventoryItem(string productName, int currentStock, int minimumRequired)
+            : base(productName)
         {
-            ProductName = productName;
             CurrentStock = currentStock;
             MinimumRequired = minimumRequired;
         }

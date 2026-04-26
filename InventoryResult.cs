@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace StoreInventoryRecorder
 {
-    internal class InventoryResult
+    public class InventoryResult
     {
         public int TargetStock { get; set; }
         public int ReorderAmount { get; set; }

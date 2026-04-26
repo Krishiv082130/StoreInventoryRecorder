@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace StoreInventoryRecorder
 {
-    internal class InventoryChecker
+    public class InventoryChecker
     {
         private const int BufferAmount = 20;
 
@@ -25,15 +25,13 @@ namespace StoreInventoryRecorder
                     $"Reorder Needed! You should order {reorderAmount} units to reach safe stock level."
                 );
             }
-            else
-            {
-                return new InventoryResult(
-                    targetStock,
-                    0,
-                    false,
-                    "Stock level is sufficient. No reorder is needed."
-                );
-            }
+
+            return new InventoryResult(
+                targetStock,
+                0,
+                false,
+                "Stock level is sufficient. No reorder is needed."
+            );
         }
     }
 }
